@@ -1,0 +1,165 @@
+/* I50 course by MdB */
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+ /* h1 h4 p etc */
+  h1 { color: #fff; font-size: 30px; }
+  h2 { color: #fff; font-size: 30px; }
+  h3 { font-size: 30px;text-align: left; }
+ h4 {text-align: left; color: #FF6600;background: white;font-size: 24px; padding: 12px 12px 24px 12px; margin: 0px 0px 5px; font-family: 'Courgette', cursive;}
+
+ p{padding: 12px 24px 0px; font-size: 20px;text-align: left;}
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: grey url(images/image-header.jpg);
+  background-size: cover;
+  color: white;
+}
+.header1{
+  padding: 60px;
+  text-align: center;
+  background: grey url(images/image-header02.jpg);
+  background-size: cover;
+  color: white;
+}
+.green {
+  background: rgba(255,255,255,0.0);
+  display: block;
+  max-width: 40%;
+   height: auto;
+}
+.white {
+  background: rgba(255,255,255,0.6);
+  display: block;
+  max-width: 40%;
+   height: auto;
+}
+.header h1 {text-align: left; color: #fff; font-size: 44px; padding: 0px 0px 0px 12px; font-family: 'Courgette', cursive;}
+.header  h2 {text-align: left; color: #fff; font-size: 24px; padding: 0px 20px 0px 48px; font-family: 'Courgette', cursive;}
+.header h4 {text-align: center; color: #FF6600;font-size: 24px; padding: 15px; font-family: 'Courgette', cursive; background: rgba(255,255,255,0.3)}
+.header p{padding: 12px 35px 0px;font-size: 15px;text-align: left; color: black;}
+.header1 h1 {text-align: left; color: #fff; font-size: 44px; padding: 0px 0px 0px 15px; font-family: 'Courgette', cursive;}
+.header1  h2 {text-align: left; color: #fff; font-size: 24px; padding: 0px 18px 0px 62px; font-family: 'Courgette', cursive;}
+.header1 h4 {text-align: center; color: #FF6600;font-size: 24px; padding: 15px; font-family: 'Courgette', cursive; background: rgba(255,255,255,0.3)}
+.header1 p{padding: 12px 35px 0px;font-size: 15px;text-align: left; color: black;}
+
+/* Style the top navigation bar */
+.navbar {
+  display:flex;
+  flex-wrap:wrap;
+
+
+  background-color: #FF6600;
+  padding: 10px;
+justify-content: center;
+align-items: center;
+list-style: none;
+margin: 0;
+background: darkorange;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+	color: white;
+	padding: 24px 20px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 12px 24px 12px 24px;
+	text-transform: uppercase;
+}
+/* Change color navbar */
+.navbar a:hover {
+  background-color: white;
+  color: #FF6600;
+}
+.navbar a:active {
+  background-color: orange;
+  color: #FFFFFF;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Create two columns that sits next to each other */
+/* left column */
+.side {
+  flex: 50%;
+  background-color: white;
+}
+/* right column */
+.main {
+  flex: 50%;
+  background: lightgrey;color: black;
+}
+/* C�r�monie */
+.left {
+  flex: 33.33333%;
+  background-color: lightgrey;
+}
+.left h4 {text-align: center; color: #FF6600;font-size: 24px; padding: 16px; font-family: 'Courgette', cursive; background: rgba(255,255,255,1.0)}
+.middle {
+  flex: 33.33333%;
+ background-color: lightgrey;
+}
+.middle h4 {text-align: center; color: #FF6600;font-size: 24px; padding: 16px; font-family: 'Courgette', cursive; background: rgba(255,255,255,1.0)}
+.right {
+  flex: 33.33333%;
+  background-color: lightgrey;
+}
+.right h4 {text-align: center; color: #FF6600;font-size: 24px; padding: 16px; font-family: 'Courgette', cursive; background: rgba(255,255,255,1.0)}
+/* Footer */
+.footer {
+color: white;
+  padding: 20px;
+  text-align: center;
+  background: #FF6600;
+}
+
+/* image responsive */
+ img {
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+ }
+
+   /* contact */
+  .wrapper {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 1px;
+	 padding: 8px 56px 8px 8px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+
+  }
+  .form-row > label {
+    padding: 8px 16px 8px 0px;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 2;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: 8px;
+	 border-radius: 1px;
+
+  }
+  .form-row > button {
+   background: orange;
+   color: white;
+   border: 2;
+  }
